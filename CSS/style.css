@@ -12,15 +12,30 @@ header h1 {
 
 header h4 {
     margin-top: 32px;
+    font-size: large;
     color: #FFB84C
 }
 
 header p {
     margin-top: -10px;
-    font-size: x-small;
+    font-size: small;
     color: #FFB84C;
     margin-bottom: 20px;
 }
+div h1
+{
+    color:#F266AB;
+    text-align: center;
+}
+
+.gambar-luas
+{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 
 .inputSection {
     display: flex;
@@ -55,4 +70,10 @@ button:hover {
 button:active {
     background-color: #ff46a3;
     transform: translateY(2px);
+}
+
+.keliling-persegi
+{
+    color:#FFB84C;
+    text-align: center;
 }
